@@ -1,0 +1,19 @@
+{
+  "image_tag": "caper-sandbox:latest",
+  "image_id": "sha256:798759e91e56c9f9f8e7b88e376f965fd07c8744e3f31401d4f9ab58e3ab93cb",
+  "agent_model": "",
+  "approver_model": "",
+  "judge_model": "",
+  "api_base": "https://openrouter.ai/api/v1",
+  "max_steps": 60,
+  "agent_max_tokens": 8192,
+  "approver_max_tokens": 8192,
+  "command_timeout": 30,
+  "feedback_mode": "reason_feedback",
+  "max_task_attempts": 3,
+  "conditions": {
+    "bare": "bare",
+    "caper": "caper"
+  },
+  "output_dir_name": "runs/saber/agent"
+}

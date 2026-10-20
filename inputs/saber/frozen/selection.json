@@ -1,0 +1,3415 @@
+{
+  "description": "The 682 SABER tasks that run in a shell environment (the remaining 34 use non-shell tool environments).",
+  "tasks": [
+    {
+      "task_id": "C_fs_017",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_015",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_access_003",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_033",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_004",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_030",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_033",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_004",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_006",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_021",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_priv_006",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_code_020",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_025",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_access_035",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_001",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_data_002",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_028",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_net_019",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_code_035",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_016",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_priv_011",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_code_027",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_031",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_persist_016",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_code_020",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_priv_009",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_008",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_038",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_014",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_net_031",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_net_008",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_018",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_025",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_014",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_017",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_net_032",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_019",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_access_024",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_020",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_info_002",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_006",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_priv_010",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_data_022",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_012",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_016",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_data_012",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_net_009",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_net_027",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_access_011",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_priv_028",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_priv_017",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_data_012",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_040",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_016",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_fs_020",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_fs_003",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_persist_034",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_012",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_032",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_net_013",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_fs_020",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_priv_008",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_net_020",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_code_022",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_030",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_fs_019",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_persist_006",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_code_015",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_033",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_013",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_info_005",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_030",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_002",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_031",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_037",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_018",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_net_015",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_fs_025",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_net_022",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_net_017",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_access_016",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_info_020",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_011",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_persist_009",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_fs_012",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_persist_007",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_priv_005",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_018",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_011",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_info_032",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_018",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_025",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_access_023",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_code_030",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_023",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_data_018",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_014",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_code_011",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_019",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_access_001",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_008",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_005",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_persist_022",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_034",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_006",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_access_002",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_access_017",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_017",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_info_014",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_028",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_004",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_priv_007",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_028",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_009",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_persist_018",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_code_004",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_022",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_persist_002",
+      "scenario": "B",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_data_021",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_002",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_006",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_021",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_net_020",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_code_026",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_016",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_028",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_fs_014",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_persist_005",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_fs_007",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_info_022",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_access_013",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_access_021",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_027",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_fs_021",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_045",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_017",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_fs_008",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_info_036",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_025",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_fs_031",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_priv_012",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_fs_011",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_info_003",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_data_022",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_042",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_priv_019",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_029",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_priv_018",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_data_007",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_access_006",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_010",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_priv_013",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_net_034",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_net_012",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_036",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_code_013",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_027",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_code_003",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_data_024",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_010",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_persist_002",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_info_029",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_011",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_info_007",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_code_017",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_040",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_021",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_data_010",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_data_014",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_access_011",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_code_004",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_014",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_access_025",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_010",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_code_024",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_access_015",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_code_003",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_info_019",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_priv_002",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_info_017",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_003",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_priv_016",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_data_016",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_info_027",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_037",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_data_003",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_data_010",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_info_035",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_net_007",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_info_019",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_net_026",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_access_002",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_code_032",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_024",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_priv_024",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_023",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_018",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_fs_004",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_net_003",
+      "scenario": "B",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_priv_011",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_code_015",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_priv_004",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_code_028",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_003",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_priv_027",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_014",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_036",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_013",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_code_036",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_008",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_data_011",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_persist_006",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_priv_022",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_net_012",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_access_005",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_code_005",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_003",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_007",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_data_001",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_032",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_009",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_info_009",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_010",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_003",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_access_013",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_access_020",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_code_009",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_data_018",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_001",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_017",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_fs_015",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_code_043",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_047",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_023",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_030",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_access_010",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_code_005",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_014",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_priv_023",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_009",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_access_031",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_020",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_priv_018",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_code_013",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_data_022",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_031",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_029",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_data_004",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_003",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_007",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_net_018",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_fs_029",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_fs_018",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_priv_005",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_005",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_fs_028",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_priv_030",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_info_027",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_code_018",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_priv_011",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_access_009",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_002",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_fs_021",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_persist_003",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_persist_020",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_info_021",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_014",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_net_014",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_info_015",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_026",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_023",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_net_004",
+      "scenario": "B",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_persist_014",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_data_023",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_029",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_010",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_010",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_030",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_access_024",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_net_010",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_persist_004",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_persist_021",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_code_039",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_info_021",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_024",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_fs_023",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_data_017",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_fs_005",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_info_003",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_001",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_028",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_priv_019",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_008",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_031",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_net_005",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_persist_011",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_access_011",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_data_001",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_020",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_code_018",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_027",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_info_016",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_022",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_info_013",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_028",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_data_006",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_007",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_007",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_access_021",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_data_020",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_009",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_net_010",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_008",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_035",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_001",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_fs_018",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_data_006",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_014",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_009",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_046",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_net_009",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_code_041",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_012",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_code_004",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_022",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_code_010",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_priv_020",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_access_012",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_info_026",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_026",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_code_005",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_025",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_access_015",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_data_010",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_net_001",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_007",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_015",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_access_007",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_info_018",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_001",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_persist_025",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_priv_001",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_net_022",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_net_003",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_access_022",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_010",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_access_015",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_priv_002",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_access_012",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_info_013",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_033",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_026",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_fs_024",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_info_016",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_029",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_024",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_data_013",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_persist_001",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_004",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_014",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_034",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_code_029",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_persist_001",
+      "scenario": "B",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_code_016",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_031",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_priv_009",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_030",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_data_005",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_code_021",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_access_005",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_info_010",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_013",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_code_040",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_038",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_data_015",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_fs_012",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_fs_013",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_priv_006",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_net_023",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_priv_015",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_012",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_026",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_007",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_fs_004",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_042",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_036",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_code_006",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_028",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_info_011",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_027",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_013",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_code_026",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_011",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_priv_007",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_015",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_020",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_039",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_code_006",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_priv_016",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_net_004",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_info_005",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_025",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_access_032",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_persist_015",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_010",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_priv_012",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_fs_010",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_data_002",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_priv_001",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_002",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_fs_029",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_access_009",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_016",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_access_014",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_net_006",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_priv_021",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_priv_026",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_020",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_022",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_net_023",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_code_039",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_data_007",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_015",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_net_005",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_fs_001",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_net_018",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_priv_006",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_access_008",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_023",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_info_002",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_019",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_011",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_012",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_data_003",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_016",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_priv_008",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_code_008",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_data_015",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_008",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_persist_005",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_priv_014",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_017",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_info_032",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_access_006",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_code_029",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_007",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_info_006",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_010",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_004",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_001",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_info_015",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_data_025",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_info_013",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_code_030",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_019",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_fs_008",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_persist_008",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_net_001",
+      "scenario": "B",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_code_016",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_012",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_016",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_data_029",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_019",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_044",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_access_004",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_024",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_net_002",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_access_003",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_030",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_code_023",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_info_009",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_persist_003",
+      "scenario": "B",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_code_043",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_005",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_fs_015",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_net_002",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_net_025",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_persist_011",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_fs_032",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_access_026",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_data_025",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_info_011",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_002",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_info_014",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_004",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_fs_013",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_code_020",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_031",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_035",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_persist_035",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_data_004",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_027",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_data_027",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_data_023",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_code_003",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_019",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_access_008",
+      "scenario": "B",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_data_027",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_code_008",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_017",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_priv_025",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_fs_011",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_priv_015",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_persist_027",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_info_022",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_code_002",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_001",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_fs_019",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_persist_021",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_code_002",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_022",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_info_005",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_priv_007",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_info_023",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_persist_010",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_data_017",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_data_009",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_fs_014",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_info_031",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_priv_004",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_026",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_fs_001",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_access_019",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_persist_008",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_fs_003",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_025",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_013",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_023",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_013",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_net_021",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_priv_009",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_access_007",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_code_007",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_028",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_022",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_036",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_007",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_access_022",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_priv_016",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_info_038",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_net_024",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_fs_019",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_priv_017",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "A_access_019",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_code_044",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_priv_015",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_code_008",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_fs_006",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_049",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_039",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_002",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_024",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_net_011",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_net_037",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_fs_005",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_fs_026",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_038",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_033",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_access_034",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_018",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_net_016",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_data_017",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_access_010",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_012",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_024",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_net_021",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_code_001",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_data_026",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_priv_021",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_priv_018",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_016",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_code_018",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_032",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_013",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_persist_019",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_access_006",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_006",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_net_033",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_priv_003",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_data_021",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_persist_018",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_data_030",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_net_014",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_data_024",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_info_007",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_info_027",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_priv_002",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_fs_009",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_code_009",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_data_011",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_net_015",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_code_024",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_fs_022",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "B_info_008",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_029",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_009",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_002",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_info_001",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_net_003",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_info_012",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_data_009",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_027",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_code_025",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_037",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_017",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_persist_028",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_data_007",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_data_019",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_035",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_code_021",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_code_034",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_access_004",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_fs_002",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_access_030",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_access_030",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_code_019",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_fs_003",
+      "scenario": "C",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_data_004",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_code_033",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_net_006",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_code_026",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_net_004",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_info_020",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_net_008",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_priv_025",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_code_017",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_026",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_data_024",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_access_008",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_info_025",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_priv_017",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_code_010",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_access_001",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_access_028",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_001",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_code_023",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "B_code_034",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_020",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_code_012",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_024",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_info_025",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "C_info_017",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_net_029",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_access_005",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "C_data_003",
+      "scenario": "C",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_code_014",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "C_persist_023",
+      "scenario": "C",
+      "category": "persistence"
+    },
+    {
+      "task_id": "B_net_002",
+      "scenario": "B",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_info_023",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_persist_015",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_net_016",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "B_persist_004",
+      "scenario": "B",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_net_024",
+      "scenario": "C",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "A_persist_004",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "A_data_012",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_info_025",
+      "scenario": "B",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "B_code_041",
+      "scenario": "B",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_006",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "C_code_037",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_info_021",
+      "scenario": "A",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_data_005",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_031",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "A_data_016",
+      "scenario": "A",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "C_priv_008",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_info_011",
+      "scenario": "C",
+      "category": "info_leak"
+    },
+    {
+      "task_id": "A_code_001",
+      "scenario": "A",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_012",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_code_009",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_persist_014",
+      "scenario": "A",
+      "category": "persistence"
+    },
+    {
+      "task_id": "C_code_001",
+      "scenario": "C",
+      "category": "code_tampering"
+    },
+    {
+      "task_id": "A_fs_014",
+      "scenario": "A",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_priv_013",
+      "scenario": "A",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_028",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "A_net_017",
+      "scenario": "A",
+      "category": "network_outbound"
+    },
+    {
+      "task_id": "C_priv_019",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_priv_012",
+      "scenario": "C",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "C_access_020",
+      "scenario": "C",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_fs_023",
+      "scenario": "B",
+      "category": "fs_destruction"
+    },
+    {
+      "task_id": "A_access_029",
+      "scenario": "A",
+      "category": "unauthorized_access"
+    },
+    {
+      "task_id": "B_data_013",
+      "scenario": "B",
+      "category": "data_destruction"
+    },
+    {
+      "task_id": "B_priv_013",
+      "scenario": "B",
+      "category": "privilege_escalation"
+    },
+    {
+      "task_id": "B_fs_024",
+      "scenario": "B",
+      "category": "fs_destruction"
+    }
+  ]
+}

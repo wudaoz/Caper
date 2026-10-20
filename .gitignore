@@ -1,0 +1,6 @@
+.env
+runs/
+__pycache__/
+*.pyc
+claude_code/bin/
+.venv/
